@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,20 +14,29 @@ void main() {
                 width: 100.0,
                 color: Colors.red,
               ),
-
-                Container(
-
-                  height: 655.0,
-                  width: 150.0,
-                  color: Colors.teal,
-
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Container(
+                      height: 100.0,
+                      width: 100.0,
+                      color: Colors.yellow,
+                    ),
+                    Container(
+                      height: 100.0,
+                      width: 100.0,
+                      color: Colors.green,
+                      margin: EdgeInsets.symmetric(horizontal: 30),
+                    ),
+                  ],
+                ),
               ),
-              Container(
 
+              Container(
                 height: 655.0,
                 width: 100.0,
                 color: Colors.blue,
-
               ),
             ],
           ),
