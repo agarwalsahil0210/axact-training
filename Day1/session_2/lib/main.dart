@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 final SnackBar snackBar = const SnackBar(content: Text('Showing Snackbar'));
 
- 
+
 
 void main() {
   runApp(MaterialApp(
